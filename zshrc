@@ -7,7 +7,7 @@ ZSH_THEME="random"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git)
+plugins=(git screen)
 
 source $ZSH/oh-my-zsh.sh
 

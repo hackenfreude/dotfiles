@@ -4,3 +4,5 @@ defscrollback 30000	#give me 30000 lines of history
 term xterm-256color	#fix coloring
 
 split -v		#give me one vertical split
+focus			#switch to new window
+screen			#start session in new window

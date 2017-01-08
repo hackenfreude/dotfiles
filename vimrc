@@ -7,3 +7,9 @@ filetype plugin on	"enable filetype plugins
 filetype indent on	"enable filetype indentation
 set relativenumber	"magic?
 syntax on		"enable code highlighting
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'SirVer/ultisnips'
+
+call plug#end()

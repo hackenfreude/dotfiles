@@ -1,7 +1,14 @@
-export TERM="xterm-256color"
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
+export TERM="xterm-256color"
 
-ZSH_THEME="3den"
+ZSH_THEME="random"
 
-setopt CORRECT
-setopt RM_STAR_WAIT
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+export EDITOR='vim'

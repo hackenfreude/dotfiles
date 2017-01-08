@@ -1,15 +1,6 @@
 startup_message off	#no startup messagee
 caption always		#always show something
-defscrollback 1000	#give me 1000 lines of history
+defscrollback 30000	#give me 30000 lines of history
+term xterm-256color	#fix coloring
 
-screen -t A
-split -v
-resize +50
-focus
-screen -t B
-split
-resize +10
-focus
-screen -t C
-focus
-
+split -v		#give me one vertical split

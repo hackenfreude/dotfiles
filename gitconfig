@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+[alias]
+	ad = add
+	bl = branch --list
+	br = branch --list --remote
+	ck = checkout
+	cm = commit
+	ft = fetch
+	pl = pull
+	ps = push
+	pt = push --tags
+	rup = remote update --prune
+	st = status

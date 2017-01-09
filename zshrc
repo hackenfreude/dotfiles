@@ -11,3 +11,13 @@ plugins=(screen)
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
+
+if (($+GITNAME))
+then
+	git config --global user.name $GITNAME
+fi
+
+if (($+GITMAIL))
+then
+	git config --global user.email $GITMAIL
+fi

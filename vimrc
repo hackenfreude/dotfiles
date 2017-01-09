@@ -9,8 +9,6 @@ set relativenumber	"magic?
 syntax on		"enable code highlighting
 
 call plug#begin('~/.vim/plugged')
-
 Plug 'SirVer/ultisnips'
 Plug 'Valloric/YouCompleteMe'
-
 call plug#end()

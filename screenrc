@@ -1,5 +1,4 @@
 startup_message off	#no startup messagee
-caption always		#always show something
 defscrollback 30000	#give me 30000 lines of history
 
 split -v		#give me one vertical split

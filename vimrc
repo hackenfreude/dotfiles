@@ -8,10 +8,7 @@ filetype indent on	"enable filetype indentation
 set relativenumber	"magic?
 syntax on		"enable code highlighting
 
-let g:UltiSnipsExpandTrigger="<c-Right>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsExpandTrigger="<S-Right>"
 
 call plug#begin('~/.vim/plugged')
 Plug 'SirVer/ultisnips'

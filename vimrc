@@ -21,6 +21,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_yaml_checkers = ['yamllint']
 
 setlocal foldmethod=syntax
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 call plug#begin('~/.vim/plugged')
 Plug 'SirVer/ultisnips'

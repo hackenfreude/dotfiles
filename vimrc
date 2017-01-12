@@ -20,8 +20,11 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_yaml_checkers = ['yamllint']
 
+setlocal foldmethod=syntax
+
 call plug#begin('~/.vim/plugged')
 Plug 'SirVer/ultisnips'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
+Plug 'elzr/vim-json'
 call plug#end()

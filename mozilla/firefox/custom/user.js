@@ -1,0 +1,14 @@
+user_pref("browser.tabs.remote.autostart.2", false);
+user_pref("pref.general.disable_button.default_browser", false);
+user_pref("browser.startup.page", 0);
+user_pref("browser.search.suggest.enabled", false);
+user_pref("accessibility.typeaheadfind.flashBar", 0);
+user_pref("privacy.donottrackheader.enabled", true);
+user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("browser.urlbar.suggest.history", false);
+user_pref("browser.urlbar.suggest.bookmark", false);
+user_pref("browser.privatebrowsing.autostart", true);
+user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("app.update.auto", false);
+user_pref("browser.search.geoip.url", "");
+user_pref("browser.search.geoip.timeout", 1);

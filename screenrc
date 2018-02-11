@@ -5,3 +5,8 @@ split -v		#give me one vertical split
 screen			#start first session
 focus			#switch to new window
 screen			#start session in new window
+
+bind j focus down	#vim-style navigation among panels
+bind k focus up		#vim-style navigation among panels
+bind l focus right	#vim-style navigation among panels
+bind h focus left	#vim-style navigation among panels

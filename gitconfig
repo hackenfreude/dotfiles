@@ -14,3 +14,5 @@
 	pt = push --tags
 	rup = remote update --prune
 	st = status
+[user]
+	useConfigOnly = true
